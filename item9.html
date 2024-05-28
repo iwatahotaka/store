@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="item.css">
+</head>
+<body>
+    <header>
+        <div class="headerLeft">
+            <a href="index.html">
+                <img src="logo.svg" alt="ロゴ">
+            </a>
+        </div>
+        <div class="headerRight">
+          <div class="header__inner">
+            <button id="js-hamburger" type="button" class="hamburger" aria-controls="navigation" aria-expanded="false" aria-label="メニューを開く"> 
+                <span class="hamburger__line"></span>
+                <span class="hamburger__text"></span>
+            </button>
+            <div class="header__nav-area js-nav-area" id="navigation">
+                <nav id="js-global-navigation" class="global-navigation">
+                    <ul class="global-navigation__list">
+                        <li><a href="products.html" class="global-navigation__link">PRODUCTS</a></li>
+                        <li><a href="about.html" class="global-navigation__link">ABOUT</a></li>
+                        <li><a href="company.html" class="global-navigation__link">COMPANY</a></li>
+                        <li><a href="mailto:xxxx@xx.xxx" class="global-navigation__link">CONTACT</a></li>
+                    </ul>
+                    <div id="js-focus-trap" tabindex="0"></div>
+                </nav>
+            </div>
+          </div>
+        </div>
+    </header>
+    <p class="productTitle">プロダクトタイトル</p>
+    <main>
+        <div class="productDetail">
+            <img class="productImage" src="item9.jpg" alt="写真9">
+            <div class="productExplain">
+                <article class="upSide">
+                    テキストテキストテキストテキストテキストテキスト
+                    テキストテキストテキストテキストテキストテキスト
+                    テキストテキストテキストテキストテキストテキスト
+                    テキストテキストテキストテキストテキストテキスト
+                    テキストテキストテキストテキスト
+                </article>
+                <article class="downSide">
+                    テキストテキストテキストテキストテキストテキスト
+                    テキストテキストテキストテキストテキストテキスト
+                    テキストテキストテキストテキストテキストテキスト
+                    テキストテキストテキストテキストテキストテキスト
+                    テキストテキストテキストテキスト
+                </article>
+                <p class="productPrice">
+                    ￥99.999 +tax
+                </p>
+                <div class="productInformation">
+                    <div class="productInformationTitle">
+                        SIZE：<br>
+                        COLOR：<br>
+                        MATERIAL：<br>
+                    </div>
+                    <div class="productInformationContent">
+                        W999 × D999 × H999<br>
+                        テキスト<br>
+                        テキストテキストテキスト<br>
+                    </div>
+                </div>
+                <div class="backButton">
+                    <a href="products.html" class="back">Back To Products</a>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="footerLeft">
+            <a href="#" class="insta">INSTAGRAM</a>
+            <a href="#" class="twitter">TWITTER</a>
+            <a href="#" class="facebook">FACEBOOK</a>
+        </div>
+        <div class="footerRight">©️ Furniture Design</div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
